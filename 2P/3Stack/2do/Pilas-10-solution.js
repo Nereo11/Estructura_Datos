@@ -1,7 +1,7 @@
 class Stack {
     constructor(){
         this.data = []
-        this.top = 5
+        this.top = 10
     }
 
     push(o){//validate stack not full
@@ -13,6 +13,10 @@ class Stack {
         }
     }
 
+    print(){
+      console.log(this.data)
+    }
+  
     peek(){
         return this.data[this.data.length-1]
     }
@@ -59,21 +63,23 @@ class Stack {
     }
 }
 
-
 let s = new Stack()
+let q = new Stack()
 
-for(i = 0; i < 10; i++){
+for(var i = 0; i < 10; i++){
 var num0 = Math.floor(Math.random() * 11);
   var n = num0;
 
+  s.push(num0); 
   
-  if(n < q.front){
+  /*if(n < ){
 
   }else{
    s.enqueue(num0); 
-  }
+  }*/
 
 
   
 };
-console.log(s.toString());
+console.log(s.size());
+console.log(s.print());

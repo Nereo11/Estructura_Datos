@@ -112,23 +112,27 @@ class Stack {
 let q = new Queue()
 let s = new Stack()
 
-
+// < menor que
 for(i = 0; i < 10; i++){
-var num0 = Math.floor(Math.random() * 11);
+  var num0 = Math.floor(Math.random() * 11);
+  var m = q.front()
   var n = num0;
-
   
-  if(n < q.front){
-  var b = q.front
-  s.push(b)
+  
+ // for(var i = n; i < m ; i++){
+  if(n < m){
+  var b = m
+ // s.push(b)
   q.dequeue()
   q.enqueue(n)
+  q.enqueue(b)
   var b = s
-  }else{
+  }
+  else{
    q.enqueue(num0); 
   }
-
-
-  
+//}
 };
 console.log(q.toString());
+//console.log(s.size());
+console.log(m);

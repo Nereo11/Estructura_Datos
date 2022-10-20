@@ -81,7 +81,7 @@ s.push(1)
 s.push(5)
 console.log('size',s.size())
 s.search(3)
-
+var n = 100;
 console.log(s.peek())
 s.pop()
 s.pop()
@@ -90,3 +90,4 @@ s.pop()
 s.pop()
 console.log('size',s.size())
 s.pop()
+s.push(n)
