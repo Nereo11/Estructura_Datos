@@ -151,7 +151,7 @@ class LinkedList {
        let m =  new Node(n)
        m.next=c.next
        c.next=m
-       return
+       return 
      }
       c = c.next
     } return console.log("Ese nodo no existe");
@@ -179,7 +179,7 @@ class LinkedList {
        let m =  new Node(n)
        m.next= l.next
        l.next=m
-       return}
+       return }
      }
       l = c
       c = c.next
