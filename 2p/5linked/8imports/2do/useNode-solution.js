@@ -27,7 +27,7 @@ Lista.prepend("e")
 
 
 Lista.insertAfter("c","b")
-Lista.insertBefore("1","c")
+Lista.insertBefore("u","c")
 //Lista.getTail()
 
 Lista.traverse()
