@@ -3,12 +3,11 @@
 // weighted graph incidence list 
 // Diseñar un objeto (Nodo) para representar una matriz de incidencia con peso de un grafo
 
-Nodo= {
-    a : {"b":, "d" :},
-    b : {"b":, "d" :},
-    c : {"b":, "d" :},
-    d : {"b":, "d" :},
-    e : {"b":, "d" :}
+let Nodo= {
+    'a' : [1, 0, 0, 4, 0, 0],
+    'b' : [1, 0, 0, 4, 0, 0],
+    'c' : [1, 0, 0, 4, 0, 0],
+    'd' : [1, 0, 0, 4, 0, 0],
+  
 }
-
-friends['Fred']
+console.log(Nodo['b'])
